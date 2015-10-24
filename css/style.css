@@ -5,6 +5,15 @@
 	margin-bottom: 50px;
 }
 
+
+#top-logo{
+  background-color: #00b9ef;
+  padding: 10px 10px;
+  margin-bottom: 0px;
+}
+
+.gbreadcrumb{background-image: url(../img/bar.jpg); padding: 30px; }
+
 #logosec{
 	text-align: center;
 	padding-top: 20px;

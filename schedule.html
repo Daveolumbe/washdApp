@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+  <html lang="">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+  	<title>Schedule Car Wash</title>
+  	<!-- Bootstrap CSS -->
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <div class="container-fluid" id="top-logo">
+  <nav class="container navbar bg-faded" style="background-color: #00b9ef;">
+  <a class="navbar-brand" href="#"><img src="img/washd.png" width="100px" alt="LOGO"></a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></a>
+    </li>
+  </ul>
+  </nav>
+  </div>
+
+
+  <div class="container text-center">
+  <h1>Schedule Car Wash</h1></div>
+  	<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+  <div class="card card-header">
+    Profile
+  </div>
+      <ul class="list-group">
+  <li class="list-group-item">
+    <span class="label label-danger label-pill pull-right">14</span>
+    Booking History
+  </li>
+  <li class="list-group-item">
+    <span class="label label-primary label-pill pull-right">200</span>
+    Wash Points
+  </li>
+  </ul> 
+
+  </div>
+      <div class="col-md-8">
+  <form>
+  <div class="form-group row">
+    <label class="col-sm-2 form-control-label">Car Model:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control"  placeholder="Mercedez Benz">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2 form-control-label">Registration:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control text-uppercase" placeholder="GYU456PR">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2">Car Size:</label>
+    <div class="col-sm-10">
+      <div class="radio">
+        <label>
+          <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          Small or Medium (£15.00)
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          Large (£18.00)
+        </label>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="form-group row">
+    <label class="col-sm-2">Extra:</label>
+    <div class="col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Interior vacuum (£7.00)
+        </label>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="form-group row">
+                <label class="col-sm-2">DateTime:</label>
+                <div class="col-sm-10 controls input-append date form_datetime" data-date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                    <input size="16" type="text" class="form-control" value="" placeholder="Choose Date & Time" readonly>
+                    <span class="add-on"><i class="icon-remove"></i></span> <span class="add-on"><i class="icon-th"></i></span>
+                </div>
+        <input type="hidden" id="dtp_input1" class="form-control" value="" /><br/>
+            </div>
+            <div class="form-group row">
+    <label class="col-sm-2 form-control-label">Location:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control"  placeholder="39, James Bond Road SW16 17DE">
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-danger-outline">BOOK NOW</button> <button type="reset" class="btn btn-danger">RESET</button>
+    </div>
+  </div>
+  </form>
+      </div>
+    </div>  
+    </div>
+
+
+  	<!-- jQuery -->
+  	<script src="js/jqueryv2.1.4.min.js"></script>
+  	<!-- Bootstrap JavaScript -->
+  	<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.uk.js" charset="UTF-8"></script>
+    <script src="js/datetime.js"></script>
+
+  </body>
+  </html>
