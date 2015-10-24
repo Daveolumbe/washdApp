@@ -5,10 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>WASHD</title>
-<link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/normalize.css">
 	</head>
 	<body>
 		<div class="container-fluid" id="top-color">
@@ -30,29 +30,47 @@
 			</div>
 		</div>
 		
-			<div class="container">
-						<div class="row">
+		<div class="container">
+			<div class="row">
 							<!-- WELCOME MESSAGE -->
-							<div class="col-md-7">
+				<div class="col-md-7">
 								<h1>Welcome text</h1>
 								<h4>The app will blow your mind</h4>
 								<h4>get paid both ways</h4>
-							</div>
+				</div>
 					<div class="col-md-5">
-					<!-- SIGNUP FORM  -->	
-					<form>
-						<fieldset class="form-group">
-		    				<input type="text" class="form-control"  placeholder="Username">
-		    			</fieldset>
-		    			<fieldset class="form-group">
-		    				<input type="text" class="form-control" placeholder="Email address">
-		    			</fieldset>
+						<!-- SIGNUP FORM  -->	
+						<form method="post">
+							<div class="form-group">
+			    				<input type="text" class="form-control form-inline"  placeholder="First name">
+			    			</div>
 
-						<fieldset class="form-group">
-		    				<input type="password" class="form-control"  placeholder="Choose a password" />
-		    			</fieldset>
-		    			<button type="button" class="btn btn-secondary-outline">Signup for free</button> I agree to the <a href="#">Terms of Use</a>
-		    		</form>
+			    			<div class="form-group">
+			    				<input type="text" class="form-control"  placeholder="Last name">
+			    			</div>
+
+			    			<div class="form-group">
+			    				<input type="email" class="form-control" placeholder="Email address">
+			    			</div>
+
+							<div class="form-group">
+			    				<input type="password" class="form-control"  placeholder="Choose a password" />
+			    			</div>
+
+			    			<div class="form-group">
+			    				<input type="number" class="form-control" placeholder="Enter mobile number">
+			    			</div>
+							
+							<div class="form-group">
+			    				<select class="form-control">
+			    					<option value="0">Select User Type</option>
+								  	<option value="1">Car Owner</option>
+								  	<option value="2">Service Team</option>
+								</select>	
+			    			</div>
+			    			<button type="button" class="btn btn-secondary-outline">Signup for free</button> I agree to the <a href="#">Terms of Use</a>
+			    		</form>
+
 		    		</div>
 		    	</div>
 			</div>
@@ -70,14 +88,14 @@
       </div>
       <div class="modal-body">
        <form>
-						<fieldset class="form-group">
-		    				<input type="text" class="form-control"  placeholder="Username">
-		    			</fieldset>
-						<fieldset class="form-group">
-		    				<input type="password" class="form-control"  placeholder="password" />
-		    			</fieldset>
-		    			<button type="button" class="btn btn-secondary-outline">LOGIN</button>
-		    		</form>
+			<div class="form-group">
+		 		<input type="text" class="form-control"  placeholder="Username">
+			</div>						
+			<div class="form-group">
+		    		<input type="password" class="form-control"  placeholder="password" />			
+		    </div>
+			<button type="button" class="btn btn-secondary-outline">LOGIN</button>
+		</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
