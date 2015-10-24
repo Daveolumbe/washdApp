@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WASHD</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+	</head>
+	<body>
+		<div class="container-fluid" id="top-color">
+			<div class="container"> 
+				<div class="row">
+					<div class="col-md-12">
+						<button type="button" class="btn btn-primary-outline btn-md pull-right" data-toggle="modal" data-target="#myModal">login</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7" id="logosec">
+						<img src="img/washd.png" class="img-responsive" width="300px" alt="LOGO" />
+					</div>
+					<div class="col-md-5" id="hide-content">
+						<img src="img/test.png" class="img-responsive" width="100%" alt="washd"/>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+			<div class="container">
+						<div class="row">
+							<!-- WELCOME MESSAGE -->
+							<div class="col-md-7">
+								<h1>Welcome text</h1>
+								<h4>The app will blow your mind</h4>
+								<h4>get paid both ways</h4>
+							</div>
+					<div class="col-md-5">
+					<!-- SIGNUP FORM  -->	
+					<form>
+						<fieldset class="form-group">
+		    				<input type="text" class="form-control"  placeholder="Username">
+		    			</fieldset>
+		    			<fieldset class="form-group">
+		    				<input type="text" class="form-control" placeholder="Email address">
+		    			</fieldset>
+
+						<fieldset class="form-group">
+		    				<input type="password" class="form-control"  placeholder="Choose a password" />
+		    			</fieldset>
+		    			<button type="button" class="btn btn-secondary-outline">Signup for free</button> I agree to the <a href="#">Terms of Use</a>
+		    		</form>
+		    		</div>
+		    	</div>
+			</div>
+
+<!-- MODAL FOR LOGIN -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">USER LOGIN</h4>
+      </div>
+      <div class="modal-body">
+       <form>
+						<fieldset class="form-group">
+		    				<input type="text" class="form-control"  placeholder="Username">
+		    			</fieldset>
+						<fieldset class="form-group">
+		    				<input type="password" class="form-control"  placeholder="password" />
+		    			</fieldset>
+		    			<button type="button" class="btn btn-secondary-outline">LOGIN</button>
+		    		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+      <div class="container-fluid footer">
+
+        <p class="text-muted container">Place sticky footer content here.</p>
+      </div>
+   
+			
+		<!-- jQuery -->
+		<script src="js/jqueryv2.1.4.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+	</body>
+</html>
