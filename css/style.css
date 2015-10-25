@@ -5,6 +5,10 @@
 	margin-bottom: 50px;
 }
 
+body{
+  margin-bottom: 0;
+  bottom: 0; 
+}
 
 #top-logo{
   background-color: #00b9ef;
@@ -29,17 +33,15 @@
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   color: #fff;
   margin-top: 50px;
   padding-top: 20px;
-  bottom: 0;
+  z-index: -1;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #00b9ef;
-    padding-right: 15px;
-  padding-left: 15px;
-  clear: both; 
+  clear: both;
 }
 
