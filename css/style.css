@@ -1,8 +1,13 @@
 
 #top-color{
-	background-color: #00b9ef;
+	background-color: #1105a8;
 	padding-top: 20px;
 	margin-bottom: 50px;
+}
+
+label{
+  font-size: 14px;
+  font-weight: bold;
 }
 
 body{
@@ -11,7 +16,7 @@ body{
 }
 
 #top-logo{
-  background-color: #00b9ef;
+  background-color: #1105a8;
   padding: 10px 10px;
   margin-bottom: 20px;
 }
@@ -41,7 +46,7 @@ body{
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #00b9ef;
+  background-color: #1105a8;
   clear: both;
 }
 
