@@ -6,22 +6,22 @@
 }
 
 label{
-  font-size: 14px;
-  font-weight: bold;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 body{
-  margin-bottom: 0;
-  bottom: 0; 
+	margin-bottom: 0;
+	bottom: 0;
 }
 
 #top-logo{
-  background-color: #1105a8;
-  padding: 10px 10px;
-  margin-bottom: 20px;
+	background-color: #1105a8;
+	padding: 10px 10px;
+	margin-bottom: 20px;
 }
 
-.gbreadcrumb{background-image: url(../img/bar.jpg); padding: 30px; }
+.breadcrumb{background-image: url(../img/bar.jpg); padding: 30px; }
 
 #logosec{
 	text-align: center;
@@ -30,23 +30,21 @@ body{
 }
 
 @media screen and (min-width: 0px) and (max-width: 280px) {
-  #hide-content { display: block; }  /* show it on small screens */
+	#hide-content { display: block; }  /* show it on small screens */
 }
 
 @media screen and (min-width: 280px) and (max-width: 1024px) {
-  #hide-content { display: none; }   /* hide it elsewhere */
+	#hide-content { display: none; }   /* hide it elsewhere */
 }
 
 .footer {
-  position: absolute;
-  color: #fff;
-  margin-top: 50px;
-  padding-top: 20px;
-  z-index: -1;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #1105a8;
-  clear: both;
+	color: #fff;
+	margin-top: 50px;
+	padding-top: 20px;
+	z-index: -1;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #1105a8;
+	clear: both;
 }
-
