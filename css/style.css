@@ -1,4 +1,12 @@
 
+@media screen and (min-width: 0px) and (max-width: 280px) {
+	#hide-content { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+	#hide-content { display: none; }   /* hide it elsewhere */
+}
+
 #top-color{
 	background-color: #1105a8;
 	padding-top: 20px;
@@ -29,13 +37,6 @@ body{
 	margin-bottom: 50px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 280px) {
-	#hide-content { display: block; }  /* show it on small screens */
-}
-
-@media screen and (min-width: 280px) and (max-width: 1024px) {
-	#hide-content { display: none; }   /* hide it elsewhere */
-}
 
 .footer {
 	color: #fff;
